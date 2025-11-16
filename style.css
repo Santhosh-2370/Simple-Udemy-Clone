@@ -1,0 +1,429 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Fonts */
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+.Navbar__S1__title:hover{
+    color: black;
+}
+
+.Navbar__s1_Explore:hover{
+    color: grey;
+}
+.target{
+    position: relative;
+    display: inline-block;
+}
+.above{
+    position: absolute;
+    top: -0.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1;
+}
+
+.Navbar__s3__Plans:hover{
+    color: grey;
+}
+.Navbar__s3__Business:hover{
+    color: grey;
+}
+.Navbar__s3__Teach:hover{
+    color: grey;
+}
+.Navbar__s3__learning:hover{
+    color: grey;
+}
+.Navbar__s3__Login:hover{
+    background-color: black;
+    color: white;          
+}
+.Navbar__s3__Signup:hover{
+    background-color: black;
+    color: white;
+}
+
+.skills:hover{
+    transform: scale(1.1);
+}
+
+.Navbar__S1__title{
+    padding: 0px;
+    color: blueviolet;
+}
+.Navbar__s3__Login{
+    width: 100px;
+}
+.Navbar__s3__Signup{
+    width: 100px;
+}
+.Navbar__s3__cart{
+    border: none;
+}
+.Navbar__s3__Globe{
+    border: none;
+}
+.Navbar{
+    align-items: center;
+    border-bottom:solid grey 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.Navbar__s1{
+    display: flex;
+}
+.Navbar__s1 p{
+    padding: 15px;
+}
+.Navbar__s2{
+    padding: 20px;
+    border: solid grey 1px;
+    border-radius: 20px;
+    width: 60%;
+    
+}
+.Navbar__s2 input{
+    font-size: 20px;
+    border: none;
+}
+.Navbar__s2 input:focus{
+    outline: none;
+}
+.Navbar__s3{
+    padding: 5px;
+    gap: 10px;
+    display: flex;
+}
+.Navbar__s3 p{
+    
+    padding: 10px;
+}
+
+
+.Navbar__s3 button{
+    margin: 1px;
+    padding: 10px;
+}
+
+.Navbar__s3__Login{
+    color: blueviolet;
+    border-color: blueviolet;
+}
+.Navbar__s3__Signup{
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+} 
+.Image{
+    display: flex;
+    justify-content: center;
+}
+.skills{
+    display: flex;
+    gap: 2px;
+}
+.skills__essentials{
+    border:solid white;
+    width: 300px;
+    padding: 100px;
+}
+.skills__img-one,.skills__img-two,.skills__img-three{
+    
+    margin-top: 80px;
+    display: flex;
+    height: 250px; 
+}
+
+.skills__img-one{
+    margin-right: 20px;
+}
+.skills__img-two{
+     margin-right: 20px;
+}
+
+.era{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 500px;
+}
+.Transform{
+    padding: 30px;
+    border-bottom: solid grey 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 65%;
+}
+
+.container{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.coursecard-one{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    border-width: 10%;
+    border: solid 1px grey;
+}
+.coursecard-two{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    border-width: 10%;
+    border: solid 1px grey;
+}
+.coursecard-three{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    border-width: 10%;
+    border: solid 1px grey;
+}
+
+.container-two{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.coursecard-four{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    border-width: 10%;
+    border: solid 1px grey;
+}
+.coursecard-five{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    border-width: 10%;
+    border: solid 1px grey;
+}
+.coursecard-six{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    border-width: 10%;
+    border: solid 1px grey;
+}
+.Topic__Recommend{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    
+}
+.Topic__Button__sec-one{
+    justify-content: space-evenly;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.Topic__Button__sec-two{
+    justify-content: space-evenly;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.Topic__Button__sec-one button{
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+.Topic__Button__sec-two button{
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+.Topic__Button__sec-one button:hover{
+   background-color: black;
+   color: white;
+}
+.Topic__Button__sec-two button:hover{
+   background-color: black;
+   color: white;
+}
+
+
+.Endbar{
+    margin: 0px;
+    
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #2A2B3F;
+    padding: 20px;
+    border-bottom:solid white 2px;
+}
+
+.Endbar__two__button{
+    width: 200px;
+      height: 50px;
+      font-size: 20px;
+      padding: 10px 20px;
+}
+
+.Finishbar__Two{
+    display: flex;
+    color: white;
+    padding: 30px;
+    background-color: #2A2B3F;
+    justify-content: left;
+    border-bottom:solid white 2px;
+}
+.container-three{
+    color: white;
+    background-color: #2A2B3F;
+
+}
+
+.Finishbar__contents{
+    align-items:flex-start;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.Finishbar__contents-two{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+   
+}
+
+.container-three{
+    border-bottom: solid white 2px;
+    
+}
+
+.Finalbar{
+    justify-content:space-evenly;
+    background-color: #202230;
+    display: flex;
+    border-bottom: solid white 2px;
+}
+
+.Last-Bar{
+    display: flex;
+    justify-content: space-between;
+}
+.Last-Bar__sec__three{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    gap: 10px;
+}
+.coursecard-one:hover{
+    transform: scale(1.2,1.2);    
+}
+.coursecard-two:hover{
+    transform: scale(1.2,1.2);    
+}
+.coursecard-three:hover{
+    transform: scale(1.2,1.2);    
+}
+.coursecard-four:hover{
+    transform: scale(1.2,1.2);    
+}
+.coursecard-five:hover{
+    transform: scale(1.2,1.2);    
+}
+.coursecard-six:hover{
+    transform: scale(1.2,1.2);    
+}
+
+.Next{
+    padding: 100px;
+    
+}
+.Next__Recommend{
+    padding: 4px;
+}
+.container-five{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 60px;
+}
+.Recommend,.Recommend_two,.Recommend_three{
+    border: solid black 2px;
+    padding: 30px;
+}
+
+.Recommend:hover,.Recommend_two:hover,.Recommend_three:hover{
+    background-color: black;
+    color: white;
+}
+
+.Offers{
+    margin-top: 30px;
+}
+
+.offers__images{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.offers__images img{
+    height:300px;
+    width:300px;
+}
+.Offers__content{
+    display: flex;
+    justify-content: center;
+}
+
+.offers__images marquee{
+    
+}
+
+.course-container{
+    background-color: #D3D3D3;
+}
+
+.Finishbar__contents{
+    gap: 60px;
+}
+.Finishbar__contents h4:hover{
+    color: yellow;
+}
+.Finishbar__contents-two h4:hover{
+    color: yellow;
+}
+.container-Four h3:hover{
+    color: yellow;
+}
+
+
+
